@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-white bg-dark-blue px-12">
+    <header class="w-full py-8 font-semibold flex justify-between">
+        <a   href="/src/index.html" class="text-blue-300">Jorge Ayerbe</p>
+      <div>
+
+        <a href="/src/datos-personales.html" class="px-3 hover:text-blue-200 transition-colors"
+        >Datos personales</a
+      >
+        <a href="" class="px-3 hover:text-blue-200 transition-colors"
+          >Información académica</a
+        >
+        <a href="" class="px-3 hover:text-blue-200 transition-colors"
+          >Información Laboral</a
+        >
+        <a
+        href="/src/contacto.html"
+        class="px-3 hover:text-blue-200 transition-colors"
+        >Contacto</a
+      >
+      </div>
+    </header>
+
+    <div class="w-full min-h-screen flex items-center justify-center bg-[#12122D] p-6">
+      <form class="w-full max-w-xl bg-white rounded-lg shadow-md px-8 pt-6 pb-8 mb-4">
+        <div class="mb-4">
+          <h2 class="text-center font-bold text-xl mb-2 text-gray-800">Contacto</h2>
+          <p class="text-center text-gray-700 text-base">Me encanta trabajar con interesantes APIs y resolver difíciles problemas de código. Si tienes algún proyecto en mente, hablemos.</p>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-800 text-sm font-bold mb-2" for="name">
+            Nombre
+          </label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="John Doe" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-800 text-sm font-bold mb-2" for="email">
+            E-mail
+          </label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="john.doe@example.com" />
+        </div>
+        <div class="mb-6">
+          <label class="block text-gray-800 text-sm font-bold mb-2" for="message">
+            Mensaje
+          </label>
+          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-24" id="message" placeholder="Escribe tu mensaje..."></textarea>
+        </div>
+        <div class="flex items-center justify-center">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
